@@ -59,6 +59,11 @@ li{
     font-size: 30px;
 }
 
+li:hover{
+    background-color: whitesmoke;
+
+}
+
 main{
     padding: auto;
 
