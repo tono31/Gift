@@ -246,6 +246,12 @@ li{
     width: 150px;
     height: 150px;
     font-size: 50px;
+
+}
+
+.b:hover{
+    background-color: whitesmoke;
+    transform: scale(1.2);
 }
 
 
@@ -260,6 +266,12 @@ li{
     font-size: 50px;
 }
 
+s:hover{
+    background-color: whitesmoke;
+    transform: scale(1.2);
+
+}
+
 .c{
     border: 3px solid black;
     background-color: blanchedalmond;
@@ -269,6 +281,11 @@ li{
     width: 150px;
     height: 150px;
     font-size: 50px;
+}
+
+.c:hover{
+    background-color: whitesmoke;
+    transform: scale(1.2);
 }
 
 .t{
@@ -281,6 +298,11 @@ li{
     height: 150px;
     font-size: 50px;
 
+}
+
+.t:hover{
+    background-color: whitesmoke;
+    transform: scale(1.2);
 }
 
 .whatsapp2{
