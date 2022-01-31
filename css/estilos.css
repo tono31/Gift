@@ -13,11 +13,7 @@ ul{
 
                                         /* index*/
 
-header{
-    font-size: 35px;
-    text-align: center;
-    margin: 80px 80px;
-}
+
 
 body{
     background: no-repeat;
@@ -25,7 +21,19 @@ body{
     font-size: 25px;
     font-family:'Raleway', sans-serif;
     padding-bottom: 250px;
-    background-image: url(https://image.freepik.com/vector-gratis/fondo-moderno-rosa-formas-geometricas_1035-19106.jpg);
+    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+    ;
+}
+
+.gridIndex{
+    display: grid;
+    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+}
+
+header{
+    font-size: 35px;
+    text-align: center;
+    margin: 80px 80px;
 }
 
 h2{
@@ -75,9 +83,11 @@ main{
     height:80%;
     margin: 25px;
     padding-bottom: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+
+
 
 }
 
@@ -354,6 +364,18 @@ li{
     margin: 10px;
     display: inline-block;
     font-size: 30px;
+}
+
+.gridQuienes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+    background-color: #f8f1ff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    grid-template-rows: auto;
+    justify-content: space-between;
 }
 
 .legend{
